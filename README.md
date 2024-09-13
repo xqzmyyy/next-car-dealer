@@ -1,5 +1,8 @@
-## CarDealer App
+# CarDealer App
 Developed for DevelopsToday by Kamila Koval
+
+## Deploy Link: 
+
 
 ## Installation
 
@@ -27,14 +30,14 @@ Or, if you use Yarn:
 
 To ensure code quality and consistent formatting, use the following commands:
 
-# ESLint
+## ESLint
 To check your code for errors and warnings, run:
 
 ```npm run lint```
 
 ```yarn lint```
 
-# Prettier
+## Prettier
 
 To format code, run:
 
@@ -42,5 +45,13 @@ To format code, run:
 
 ```yarn format```
 
+# Structure
 
+Home page:
+![Image of Home page](/assets/home.png)
 
+Results Page:
+![Image of Results Page](/assets/result-page.png)
+
+# Author
+## Koval Kamila
