@@ -1,1 +1,46 @@
-This is a CarDealer App developed for DevelopsToday by Kamila Koval
+## CarDealer App
+Developed for DevelopsToday by Kamila Koval
+
+## Installation
+
+To install dependencies, run the following command:
+
+```npm install```
+
+Or, if you use Yarn:
+
+```yarn install```
+
+## Running the Application
+
+```npm start```
+
+```yarn start```
+
+## Building the Application
+
+```npm run build```
+
+```yarn build```
+
+## Linting and Formatting
+
+To ensure code quality and consistent formatting, use the following commands:
+
+# ESLint
+To check your code for errors and warnings, run:
+
+```npm run lint```
+
+```yarn lint```
+
+# Prettier
+
+To format code, run:
+
+```npm run format```
+
+```yarn format```
+
+
+
