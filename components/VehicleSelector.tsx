@@ -75,7 +75,10 @@ const VehicleSelector: React.FC = () => {
             </div>
             <div className="mt-6">
                 <Link 
-                    href={isNextButtonEnabled ? `/result/${selectedMake?.MakeId}/${selectedYear}` : '#'}
+                    href={{
+                        pathname: `/result/${selectedMake?.MakeId}/${selectedYear}`,
+                        query: { makeName: selectedMake?.MakeName }
+                    }}
                     className={`w-full text-center py-2 px-4 border border-transparent rounded-xl shadow-sm text-sm font-medium text-white bg-[#683142] hover:bg-[#7e3a4f] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#683142] ${!isNextButtonEnabled ? 'opacity-50 cursor-not-allowed' : ''}`}
                     onClick={(e) => {
                         if (!isNextButtonEnabled) {
