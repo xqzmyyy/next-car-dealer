@@ -1,5 +1,5 @@
 # CarDealer App
-Developed for DevelopsToday by Kamila Koval
+Pet-Project. Developed by KK
 
 ## Deploy Link: 
 [https://next-car-dealer-five.vercel.app/](https://next-car-dealer-five.vercel.app/)
